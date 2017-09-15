@@ -12,14 +12,293 @@
   </head>
   <body>
     <div class="wrapper">
-      <h2>Обо мне</h2>
-      <h2>Меню</h2>
-      <ul class="menu">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="about.html">Обо мне</a></li>
-        <li><a href="my-works.html">Мои работы</a></li>
-        <li><a href="blog.html">Блог</a></li>
-      </ul>
+      <section class="section hero">
+        <header class="hero__header">
+          <div class="hero__socials">
+            <div class="socials">
+              <ul class="socials__list">
+                <li class="socials__item"><a class="socials__link" href="#">
+                    <svg class="socials__icon" width="31" height="17">
+                      <use xlink:href="images/sprite/mySprite.min.svg#vk"></use>
+                    </svg></a></li>
+                <li class="socials__item"><a class="socials__link" href="#">
+                    <svg class="socials__icon" width="26" height="22">
+                      <use xlink:href="images/sprite/mySprite.min.svg#github"></use>
+                    </svg></a></li>
+                <li class="socials__item"><a class="socials__link" href="#">
+                    <svg class="socials__icon" width="24" height="22">
+                      <use xlink:href="images/sprite/mySprite.min.svg#in"></use>
+                    </svg></a></li>
+              </ul>
+            </div>
+          </div>
+          <button class="hamburger">
+            <svg class="hamburger__icon" width="40" height="35">
+              <use xlink:href="images/sprite/mySprite.min.svg#hamburger"></use>
+            </svg>
+          </button>
+        </header>
+        <div class="hero__content">
+          <div class="hero__title"> 
+            <svg class="section-picture section-picture_hero" width="100" height="100">
+              <use xlink:href="images/sprite/mySprite.min.svg#portfolio_header"></use>
+            </svg>
+            <div class="hero__whoami">
+              <div class="whoami">
+                <div class="whoami__photo" style="background-image: url('images/photos/avatar-photo.jpg');"> </div>
+                <div class="whoami__name">Исаев Адександр</div>
+                <div class="whoami__discription">Личный сайт веб разработчика</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__bottom">
+          <button class="arrow-down">
+            <svg class="arrow-down__icon" width="26" height="16">
+              <use xlink:href="images/sprite/mySprite.min.svg#arrow_down"></use>
+            </svg>
+          </button>
+        </div>
+      </section>
+      <section class="section about">
+        <div class="about__left"> 
+          <svg class="triangle triangle_fill_begie" viewbox="0 0 1000 100" preservAspectRatio="none">
+            <polygon points="0,0 0,100 1000,100"></polygon>
+          </svg>
+          <div class="about__title">
+            <svg class="section-picture section-picture_adout" width="100" height="100">
+              <use xlink:href="images/sprite/mySprite.min.svg#about_header"></use>
+            </svg>
+            <div class="section-title section-title_about">Обо мне</div>
+          </div>
+          <div class="about__i-am"><img class="i-am__photo" src="images/photos/about-photo.jpg" alt="photo">
+            <div class="i-am__title"> 
+              <div class="section-title section-title_i-am">Кто я </div>
+            </div>
+            <div class="i-am__discription">
+              <p>Я веб разработчик из Новосибирска. Мне 27 лет. Я занимаюсь разработкой современных сайтов и приложений. Мне нравится делать интересные и современные проекты.</p>
+              <p>Этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool. Чуть позже я освежу в нём свой контент. А пока посмотрите,как тут всё классно и красиво!</p>
+            </div>
+          </div>
+        </div>
+        <div class="about__right">
+          <svg class="triangle triangle_fill_white" viewbox="0 0 1000 100" preservAspectRatio="none">
+            <polygon points="0,100 1000,100 1000,0"></polygon>
+          </svg>
+          <div class="about__usefulness">
+            <div class="usefulness">
+              <div class="usefulness__title">
+                <div class="section-title section-title_usefulness">Чем я могу быть вам полезен </div>
+              </div>
+              <div class="usefulness__discription">
+                <p>Больше всего меня привлекет Frontend разработка, но я также знаком и могу решать не сложные задачи на Backend. Но давайте по порядку.</p>
+              </div>
+            </div>
+          </div>
+          <div class="about__skills">
+            <ul class="skills-list">
+              <li class="skills-list__item">
+                <div class="skills-row">
+                  <div class="skills-row__title">Frontend</div>
+                  <ul class="skills-row__list">
+                    <li class="skills-row__item">
+                      <div class="skill">
+                        <svg class="skill__circle" width="110" height="110">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk_round"></use>
+                        </svg>
+                        <div class="skill__title">Html5</div>
+                      </div>
+                    </li>
+                    <li class="skills-row__item">
+                      <div class="skill">
+                        <svg class="skill__circle" width="110" height="110">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk_round"></use>
+                        </svg>
+                        <div class="skill__title">css3</div>
+                      </div>
+                    </li>
+                    <li class="skills-row__item">
+                      <div class="skill">
+                        <svg class="skill__circle" width="110" height="110">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk_round"></use>
+                        </svg>
+                        <div class="skill__title">JavaScript</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="skills-list__item">
+                <div class="skills-row">
+                  <div class="skills-row__title">Backend</div>
+                  <ul class="skills-row__list">
+                    <li class="skills-row__item">
+                      <div class="skill">
+                        <svg class="skill__circle" width="110" height="110">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk_round"></use>
+                        </svg>
+                        <div class="skill__title">PHP</div>
+                      </div>
+                    </li>
+                    <li class="skills-row__item">
+                      <div class="skill">
+                        <svg class="skill__circle" width="110" height="110">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk_round"></use>
+                        </svg>
+                        <div class="skill__title">mySQL</div>
+                      </div>
+                    </li>
+                    <li class="skills-row__item">
+                      <div class="skill">
+                        <svg class="skill__circle" width="110" height="110">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk_round"></use>
+                        </svg>
+                        <div class="skill__title">Node.js&amp; npm</div>
+                      </div>
+                    </li>
+                    <li class="skills-row__item">
+                      <div class="skill">
+                        <svg class="skill__circle" width="110" height="110">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk_round"></use>
+                        </svg>
+                        <div class="skill__title">Mongo.db</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="skills-list__item">
+                <div class="skills-row">
+                  <div class="skills-row__title">WorkFlow</div>
+                  <ul class="skills-row__list">
+                    <li class="skills-row__item">
+                      <div class="skill">
+                        <svg class="skill__circle" width="110" height="110">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk_round"></use>
+                        </svg>
+                        <div class="skill__title">Git</div>
+                      </div>
+                    </li>
+                    <li class="skills-row__item">
+                      <div class="skill">
+                        <svg class="skill__circle" width="110" height="110">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk_round"></use>
+                        </svg>
+                        <div class="skill__title">Gulp</div>
+                      </div>
+                    </li>
+                    <li class="skills-row__item">
+                      <div class="skill">
+                        <svg class="skill__circle" width="110" height="110">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk_round"></use>
+                        </svg>
+                        <div class="skill__title">Bower</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section map">
+        <div class="map__yandex-map"></div>
+        <div class="map__contacts">
+          <div class="contacts">
+            <div class="contacts__title">
+              <div class="section-title section-title_contacts">Контакты</div>
+            </div>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <svg class="contacts__icon" width="24" height="24">
+                  <use xlink:href="images/sprite/mySprite.min.svg#skype"></use>
+                </svg>
+                <div class="contacts__name">skype_kdn</div>
+              </li>
+              <li class="contacts__item">
+                <svg class="contacts__icon" width="24" height="24">
+                  <use xlink:href="images/sprite/mySprite.min.svg#envelope2"></use>
+                </svg>
+                <div class="contacts__name">astahov@gmail.com</div>
+              </li>
+              <li class="contacts__item">
+                <svg class="contacts__icon" width="24" height="24">
+                  <use xlink:href="images/sprite/mySprite.min.svg#phone2"></use>
+                </svg>
+                <div class="contacts__name">+7 931 200 93 24</div>
+              </li>
+              <li class="contacts__item">
+                <svg class="contacts__icon" width="24" height="24">
+                  <use xlink:href="images/sprite/mySprite.min.svg#map_marker"></use>
+                </svg>
+                <div class="contacts__name">Новосибирск, ул. Инская, д.14</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="footer__row">
+            <div class="footer__col">
+              <div class="footer__text">Этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool. </div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__menu">
+                <nav class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="index.html">Главная страница</a></li>
+                    <li class="menu__item"><a class="menu__link" href="my-works.html">работы</a></li>
+                    <li class="menu__item"><a class="menu__link" href="about.html">Обо мне</a></li>
+                    <li class="menu__item"><a class="menu__link" href="blog.html">Блог</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer__socials">
+                <div class="socials">
+                  <ul class="socials__list">
+                    <li class="socials__item"><a class="socials__link" href="#">
+                        <svg class="socials__icon" width="31" height="17">
+                          <use xlink:href="images/sprite/mySprite.min.svg#vk"></use>
+                        </svg></a></li>
+                    <li class="socials__item"><a class="socials__link" href="#">
+                        <svg class="socials__icon" width="26" height="22">
+                          <use xlink:href="images/sprite/mySprite.min.svg#github"></use>
+                        </svg></a></li>
+                    <li class="socials__item"><a class="socials__link" href="#">
+                        <svg class="socials__icon" width="24" height="22">
+                          <use xlink:href="images/sprite/mySprite.min.svg#in"></use>
+                        </svg></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__quote">Всегда пишите код так, будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете.</div>
+              <div class="footer__quote-author">— Martin Golding </div>
+            </div>
+          </div>
+          <div class="footer__row footer__row_fill_green">
+            <div class="author">© Александр Исаев | создано с любовью в LoftSchool | 2017</div>
+          </div>
+        </footer>
+      </section>
+      <div class="fixed-menu">
+        <nav class="fixed-menu__list">
+          <button class="close-btn" type="button">
+            <svg class="close-btn__icon" width="40" height="35">
+              <use xlink:href="images/sprite/mySprite.min.svg#cross"></use>
+            </svg>
+          </button>
+          <div class="fixed-menu__item"><a class="fixed-menu__link">
+              <div class="section-title section-title_fixed-menu">Мои работы</div></a></div>
+          <div class="fixed-menu__item"><a class="fixed-menu__link">
+              <div class="section-title section-title_fixed-menu">Блог</div></a></div>
+          <div class="fixed-menu__item"><a class="fixed-menu__link">
+              <div class="section-title section-title_fixed-menu">Обо мне</div></a></div>
+          <div class="fixed-menu__item"><a class="fixed-menu__link">
+              <div class="section-title section-title_fixed-menu">Авторизация</div></a></div>
+        </nav>
+      </div>
     </div>
     <script src="./scripts/main.min.js"></script>
   </body>
