@@ -61,67 +61,48 @@
         </div>
       </section>
       <section class="section my-works">
+        <svg class="dubletriangle" viewbox="0 0 1000 100" preservAspectRatio="none">
+          <polygon points="0,100 0,0 500,100 500,100 1000,0 1000,100"></polygon>
+        </svg>
         <div class="my-works__title">
-          <svg class="dubletriangle" viewbox="0 0 1000 100" preservAspectRatio="none">
-            <polygon points="0,100 0,0 500,100 500,100 1000,0 1000,100"></polygon>
-          </svg>
           <div class="section-title section-title_my-works">Мои работы</div>
+          <svg class="section-picture" width="100" height="100">
+            <use xlink:href="images/sprite/mySprite.min.svg#works_header"></use>
+          </svg>
         </div>
-        <div class="my-works__slider slider">
-          <div class="slider__description">
-            <ul class="description-sl">
-              <li class="description-sl__item">
-                <div class="description-sl__title">Сайт 1</div>
-                <div class="description-sl__skills">HTML , CSS, JAVASCRIPT</div><a class="description-sl__link" href="#">
-                  <svg class="description-sl__icon" width="20" height="19">
-                    <use xlink:href="images/sprite/mySprite.min.svg#link"></use>
-                  </svg>
-                  <div class="description-sl__text">Посмотреть сайт</div></a>
-              </li>
-              <li class="description-sl__item">
-                <div class="description-sl__title">Сайт 2</div>
-                <div class="description-sl__skills">HTML , CSS, JAVASCRIPT</div><a class="description-sl__link" href="#">
-                  <svg class="description-sl__icon" width="20" height="19">
-                    <use xlink:href="images/sprite/mySprite.min.svg#link"></use>
-                  </svg>
-                  <div class="description-sl__text">Посмотреть сайт</div></a>
-              </li>
-              <li class="description-sl__item">
-                <div class="description-sl__title">Сайт 3</div>
-                <div class="description-sl__skills">HTML , CSS, JAVASCRIPT</div><a class="description-sl__link" href="#">
-                  <svg class="description-sl__icon" width="20" height="19">
-                    <use xlink:href="images/sprite/mySprite.min.svg#link"></use>
-                  </svg>
-                  <div class="description-sl__text">Посмотреть сайт</div></a>
-              </li>
-              <li class="description-sl__item">
-                <div class="description-sl__title">Сайт 4</div>
-                <div class="description-sl__skills">HTML , CSS, JAVASCRIPT</div><a class="description-sl__link" href="#">
-                  <svg class="description-sl__icon" width="20" height="19">
-                    <use xlink:href="images/sprite/mySprite.min.svg#link"></use>
-                  </svg>
-                  <div class="description-sl__text">Посмотреть сайт</div></a>
-              </li>
-            </ul>
+      </section>
+      <section class="section slider">
+        <div class="slider__left description-sl">
+          <div class="description-sl__container">
+            <div class="description-sl__title">
+              <div class="section-title section-title_description-sl">Сайт школы онлайн образования</div>
+            </div>
+            <div class="description-sl__skills">HTML , CSS, JAVASCRIPT</div><a class="description-sl__link" href="">
+              <svg class="description-sl__icon" width="20" height="19">
+                <use xlink:href="images/sprite/mySprite.min.svg#link"></use>
+              </svg>
+              <div class="description-sl__text">Посмотреть сайт</div></a>
           </div>
-          <div class="slider__photos photos-sl">
+        </div>
+        <div class="slider__right">
+          <div class="slider__photos">
             <ul class="photos-sl">
-              <li class="photos-sl__item"> 
+              <li class="photos-sl__item focus">
                 <div class="photos-sl__slide" style="background-image: url(../../images/myWorks/work-1.png);"></div>
               </li>
-              <li class="photos-sl__item"> 
+              <li class="photos-sl__item focus">
                 <div class="photos-sl__slide" style="background-image: url(../../images/myWorks/work-2.png);"></div>
               </li>
-              <li class="photos-sl__item"> 
+              <li class="photos-sl__item focus">
                 <div class="photos-sl__slide" style="background-image: url(../../images/myWorks/work-3.png);"></div>
               </li>
-              <li class="photos-sl__item"> 
+              <li class="photos-sl__item focus">
                 <div class="photos-sl__slide" style="background-image: url(../../images/myWorks/work-4.png);"></div>
               </li>
             </ul>
           </div>
           <div class="slider__nav-btns nav-btns">
-            <div class="nav-btns__sl-btn nav-btns__sl-btn_prev">
+            <div class="nav-btns__sl-btn nav-btns__sl-btn_fill_prev">
               <ul class="sl-btn__list">
                 <li class="sl-btn__item">
                   <div class="sl-btn__slide" style="background-image: url(../../images/myWorks/work-1.png);"></div>
@@ -136,36 +117,28 @@
                   <div class="sl-btn__slide" style="background-image: url(../../images/myWorks/work-4.png);"></div>
                 </li>
               </ul>
-              <div class="arrow-down arrow-up_sl-btn">
-                <button class="arrow-down__btn">
-                  <svg class="arrow-down__icon" width="26" height="16">
-                    <use xlink:href="images/sprite/mySprite.min.svg#arrow_down"></use>
-                  </svg>
-                </button>
-              </div>
+              <svg class="sl-btn__btn" width="26" height="16">
+                <use xlink:href="images/sprite/mySprite.min.svg#arrow_down"></use>
+              </svg>
             </div>
-            <div class="nav-btns__sl-btn nav-btns__sl-btn_next">
+            <div class="nav-btns__sl-btn nav-btns__sl-btn_fill_next">
               <ul class="sl-btn__list">
                 <li class="sl-btn__item">
-                  <div class="sl-btn__slide" style="background-image: url(../../images/myWorks/work-1.png);"></div>
+                  <div class="sl-btn__slide" style="background-image: url(../../images/myWorks/work-1.png);">   </div>
                 </li>
                 <li class="sl-btn__item">
-                  <div class="sl-btn__slide" style="background-image: url(../../images/myWorks/work-2.png);"></div>
+                  <div class="sl-btn__slide" style="background-image: url(../../images/myWorks/work-2.png);">   </div>
                 </li>
                 <li class="sl-btn__item">
-                  <div class="sl-btn__slide" style="background-image: url(../../images/myWorks/work-3.png);"></div>
+                  <div class="sl-btn__slide" style="background-image: url(../../images/myWorks/work-3.png);">   </div>
                 </li>
                 <li class="sl-btn__item">
-                  <div class="sl-btn__slide" style="background-image: url(../../images/myWorks/work-4.png);"></div>
+                  <div class="sl-btn__slide" style="background-image: url(../../images/myWorks/work-4.png);">   </div>
                 </li>
               </ul>
-              <div class="arrow-up arrow-up_sl-btn">
-                <button class="arrow-up__btn">
-                  <svg class="arrow-up__icon" width="26" height="16">
-                    <use xlink:href="images/sprite/mySprite.min.svg#portf_arrow_up"></use>
-                  </svg>
-                </button>
-              </div>
+              <svg class="sl-btn__btn" width="26" height="16">
+                <use xlink:href="images/sprite/mySprite.min.svg#portf_arrow_up"></use>
+              </svg>
             </div>
           </div>
         </div>
@@ -173,7 +146,7 @@
       <section class="section feedback">
         <div class="feedback__title">
           <div class="section-title section-title_feedback">Что обо мне говорят</div>
-          <svg class="section-picture section-picture_feedback" width="100" height="100">
+          <svg class="section-picture" width="100" height="100">
             <use xlink:href="images/sprite/mySprite.min.svg#about_header"></use>
           </svg>
         </div>
