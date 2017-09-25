@@ -32,11 +32,21 @@
               </ul>
             </div>
           </div>
-          <button class="hamburger">
-            <svg class="hamburger__icon" width="40" height="35">
-              <use xlink:href="images/sprite/mySprite.min.svg#hamburger"></use>
-            </svg>
-          </button>
+          <div class="hero__hamburger-menu">
+            <div class="hamburger-menu__btn">
+              <button class="hamburger-bnt"><span class="hamburger-bnt__line"></span><span class="hamburger-bnt__line"></span><span class="hamburger-bnt__line"></span></button>
+            </div>
+            <div class="hamburger-menu__ham-menu">
+              <nav class="ham-menu">
+                <ul class="ham-menu__list">
+                  <li class="ham-menu__item"><a class="ham-menu__link" href="my-works.html">Мои работы</a></li>
+                  <li class="ham-menu__item"><a class="ham-menu__link" href="blog.html">Блог</a></li>
+                  <li class="ham-menu__item"><a class="ham-menu__link" href="about.html">Обо мне</a></li>
+                  <li class="ham-menu__item"><a class="ham-menu__link" href="index.html">Авторизация</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </header>
         <div class="hero__content">
           <div class="hero__title"> 
@@ -282,24 +292,7 @@
           </div>
         </footer>
       </section>
-      <div class="fixed-menu">
-        <nav class="fixed-menu__list">
-          <button class="close-btn" type="button">
-            <svg class="close-btn__icon" width="40" height="35">
-              <use xlink:href="images/sprite/mySprite.min.svg#cross"></use>
-            </svg>
-          </button>
-          <div class="fixed-menu__item"><a class="fixed-menu__link" href="my-works.html">
-              <div class="section-title section-title_fixed-menu">Мои работы</div></a></div>
-          <div class="fixed-menu__item"><a class="fixed-menu__link" href="blog.html">
-              <div class="section-title section-title_fixed-menu">Блог</div></a></div>
-          <div class="fixed-menu__item"><a class="fixed-menu__link" href="about.html">
-              <div class="section-title section-title_fixed-menu">Обо мне</div></a></div>
-          <div class="fixed-menu__item"><a class="fixed-menu__link" href="index.html">
-              <div class="section-title section-title_fixed-menu">Авторизация</div></a></div>
-        </nav>
-      </div>
     </div>
-    <script src="./scripts/main.min.js"></script>
+    <script src="./scripts/about.min.js"></script>
   </body>
 </html>
